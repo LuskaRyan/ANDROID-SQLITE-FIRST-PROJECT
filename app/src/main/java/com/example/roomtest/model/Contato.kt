@@ -9,7 +9,7 @@ import java.time.LocalDate
 data class Contato (
 
     @PrimaryKey(autoGenerate = true)
-    var id: Int,
+    var id: Int = 0,
 
     @ColumnInfo(name = "nome")
     var nomeContato: String,
